@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irina</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1>Irina</h1>
+    <form action="process-singup.php" method="post" novalidate>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+<div>
+    <label for="password_confirmation">Repeta parola</label>
+    <input type="password" id="password_confirmation"
+    name="password_confirmation">
+</div>
+
+<button class="bubbly-button">Sing up</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
